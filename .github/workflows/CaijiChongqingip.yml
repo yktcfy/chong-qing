@@ -39,7 +39,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           cat zubo.txt > zubo_bf.txt
           bash ./CaijiChongqingip.sh
-          cat txt/Chongqing_liantong.txt > zubo.txt
+          cat txt/Chongqing_lian.tong.txt > zubo.txt
           
       - name: 更新源
         run: |
